@@ -1,5 +1,5 @@
-function minima(limit, array) {
-  return array
+function minima(limit, unSortedArray) {
+  return unSortedArray
     .sort((a, b) => {
       return a - b;
     })
